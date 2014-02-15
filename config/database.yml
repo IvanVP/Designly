@@ -24,11 +24,11 @@
 #   host: localhost
 #   port: 5433
 
-  
+
 development:
   adapter: postgresql
   encoding: unicode
-  database: designly_production
+  database: designly_development
   pool: 5
   password:
   # Connect on a TCP socket. Omitted by default since the client uses a
