@@ -79,6 +79,6 @@ Designly::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   config.after_initialize do
-  EnginesHelper.autoload_assets = false
+  EnginesHelper.autoload_assets = true
   end
 end
