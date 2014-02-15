@@ -72,7 +72,6 @@ development:
 #   host: localhost
 #   port: 5433
 production:
-
   adapter: postgresql
   encoding: unicode
   database: designly_production
