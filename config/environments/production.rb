@@ -79,7 +79,7 @@ Designly::Application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
-  # config.after_initialize do
-  # EnginesHelper.autoload_assets = true
-  # end
+  config.after_initialize do
+  EnginesHelper.autoload_assets = true
+  end
 end
