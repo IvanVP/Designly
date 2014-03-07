@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-
+ruby '2.1.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', '4.0.3'
 
 gem 'community_engine', git: 'https://github.com/bborn/communityengine.git', :branch => "rails4"
 gem "omniauth-facebook", "~> 1.6.0"
@@ -50,4 +50,3 @@ gem 'rails_12factor', group: :production
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-ruby "2.1.0"

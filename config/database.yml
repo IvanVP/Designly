@@ -30,7 +30,10 @@ development:
   encoding: unicode
   database: designly_development
   pool: 5
-  password:
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
@@ -60,7 +63,7 @@ development:
 #   username: postgres
 #   password: postgres
 #   host: localhost
-#   port: 5433
+#   port: 5432
 
 # production:
 #   adapter: postgresql
@@ -70,7 +73,7 @@ development:
 #   username: postgres
 #   password: postgres
 #   host: localhost
-#   port: 5433
+#   port: 5432
 production:
   adapter: postgresql
   encoding: unicode
