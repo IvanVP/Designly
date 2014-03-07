@@ -11,6 +11,10 @@ gem "omniauth-linkedin", "~> 0.1.0"
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+gem "less", "~> 2.5.0"
+gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
+gem "therubyracer", "~> 0.12.1"
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
